@@ -39,7 +39,14 @@ body {
 .nav-link {
 font-family: "Montserrat";
 font-weight: 600;
+}
 
+@media (max-width: 990px) {
+  .nav-link {
+    font-weight: 500;
+    font-family: "Montserrat";
+    font-size: 2rem;
+  }
 
 }
 
